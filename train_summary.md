@@ -41,6 +41,7 @@ Tried following feature permutations:
 
 # Results
 ![Figure showing accuracy and F1 score across all experiment runs](media/metrics.png)
+- Baseline: predict Bechdel score=3 (recall that we upsampled the dataset so that each category would have equal numbers)
 - All models outperform baseline
 - Model trained on multi-hot features performs best
 - Adding binned continuous features to multi-hot features does not result in any improvement
